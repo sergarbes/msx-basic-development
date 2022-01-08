@@ -21,3 +21,6 @@ En la línia 710 debería de ser SPRITE 4
 En la línia 250 he tenido que añadir la inicialización del color del semáforo del SC a 4
 
 
+*pag 109
+
+En la líniea 810 el FOR va entre 0 y 2 y no entre 0 y 3 ya que tenemos 3 enemigos
