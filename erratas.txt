@@ -1,26 +1,27 @@
-*pag 92 
+pág 92
 
-La subrutina que empieza en la línia 600 debería estar al final por ejemplo en la línia 6000 según las línias del ejmeplo
-
-*pg 93
-
-En la línia 211 sobra un EX(I)
-
-*pag 211
-
-En la línia 211 sobra un EX(I)
-
-*pag 100 i 101
-
-En la línia 700 debería de ser SPRITE 3
-
-En la línia 710 debería de ser SPRITE 4
-
-*pag 105
-
-En la línia 250 he tenido que añadir la inicialización del color del semáforo del SC a 4
+Me he encontrado que si aplico la idea que se propone de gestiona los cursores y el joystick a la vez utilizando una rutina y siguiendo el listado de la página 93 la numeración propuesta de la rutina de la línia 600 ha de ser por encima de la línea 1000, fuera del game loop.
 
 
-*pag 109
 
-En la líniea 810 el FOR va entre 0 y 2 y no entre 0 y 3 ya que tenemos 3 enemigos
+pág 93 y pag 211
+
+En la línia 220 EX(I)=EX(I)=I*16 sobra un EX(I).
+
+
+
+pág 100 y 101
+
+Las línias 700 y 710 los sprites deberían ser SPRITE 3 y SPRITE 4 para seguir con la definición de los sprites de los enemigos.
+
+
+
+pág 105
+
+El semáforo correspondiente al Sprite Colision no se volvía a poner en su color azul después de la colisión. He pusto la variable asociada a SC=4 en la línia 250 para que el semáforo vuelva a su valor original cuando no hay Sprite Colision.
+
+
+
+pág 109 y 211
+
+El FOR de la línea 810 deberír de ir entre 0 y 2 ya que tenemos 3 enemigos y en MSX BASIC se ejetuta el 0, el 1 y el 2.
